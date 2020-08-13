@@ -1,0 +1,32 @@
+tr td:hover
+{
+  cursor: pointer;
+}
+#log_list_id td:nth-child(1)
+{
+  font-size: 0px;
+  width: 1%;
+  opacity: 0;
+  border: 0 !important;
+}
+#log_list_id td:nth-child(8)
+{
+  font-size: 0px;
+  width: 1%;
+  opacity: 0;
+  border: 0 !important;
+}
+.profile > a 
+{
+  width:40px;
+  height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+}
+.typeColor
+{
+  margin-right: 20px;
+  font-weight: bolder;
+}

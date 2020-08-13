@@ -1,0 +1,32 @@
+
+.modal-dialog { 
+max-width: 100%; 
+width: auto !important; 
+display: inline-block; 
+}
+.modal{
+     text-align: center;
+}
+tr td:hover
+{
+  cursor: pointer;
+}
+#faculty_id
+{
+  cursor: default;
+}
+#subject_list_id td:nth-child(1),#log_list_id td:nth-child(1)
+{
+  font-size: 0px;
+  width: 1%;
+  opacity: 0;
+  border: 0 !important;
+}
+#subject_list_id td:nth-child(8),#log_list_id td:nth-child(9)
+{
+  color: rgba(153, 20, 20, 0.8);
+  font-size: 0px;
+  width: 1%;
+  opacity: 0;
+  border: 0 !important;
+}
